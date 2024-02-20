@@ -9,7 +9,7 @@ info:
     email: info@craneww.com
   version: "1.0"
 servers:
-  - url: https://api-uat.craneww.com/ws/rest/uat/v0
+  - url: https://api-uat.craneww.com/dev/ws/rest/v0
 tags:
   - name: postdata
 paths:
@@ -100,6 +100,12 @@ paths:
                 ship_from_1:
                   type: string
                 ship_to_1:
+                  type: string
+                MOT__1:
+                  type: string
+                FILENAME:
+                  type: string
+                ORDER_ID__1:
                   type: string
         required: false
       responses:
@@ -210,6 +216,12 @@ components:
         ship_from_1:
           type: string
         ship_to_1:
+          type: string
+        MOT__1:
+          type: string
+        FILENAME:
+          type: string
+        ORDER_ID__1:
           type: string
   responses:
     "400":
