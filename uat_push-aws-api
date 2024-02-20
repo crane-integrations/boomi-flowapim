@@ -9,7 +9,7 @@ info:
     email: info@craneww.com
   version: "1.0"
 servers:
-  - url: https://api-uat.craneww.com/dev/ws/rest/v0
+  - url: https://api-uat.craneww.com/ws/rest/uat/v0
 tags:
   - name: postdata
 paths:
