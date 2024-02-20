@@ -101,6 +101,12 @@ paths:
                   type: string
                 ship_to_1:
                   type: string
+                MOT__1:
+                  type: string
+                FILENAME:
+                  type: string
+                ORDER_ID__1:
+                  type: string
         required: false
       responses:
         "200":
@@ -210,6 +216,12 @@ components:
         ship_from_1:
           type: string
         ship_to_1:
+          type: string
+        MOT__1:
+          type: string
+        FILENAME:
+          type: string
+        ORDER_ID__1:
           type: string
   responses:
     "400":
