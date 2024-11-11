@@ -107,6 +107,8 @@ paths:
                   type: string
                 ORDER_ID__1:
                   type: string
+                LOAD_ID:
+                  type: string
         required: false
       responses:
         "200":
@@ -222,6 +224,8 @@ components:
         FILENAME:
           type: string
         ORDER_ID__1:
+          type: string
+        LOAD_ID:
           type: string
   responses:
     "400":
